@@ -12,5 +12,5 @@ if [ -d "$DIR" ]; then
   echo "${DIR} exists"
 else
   echo "Creating ${DIR} directory"
-  mmkdir ${DIR}
+  mkdir ${DIR}
 fi
